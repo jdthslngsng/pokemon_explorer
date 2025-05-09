@@ -1,0 +1,138 @@
+.compare-inputs {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 20px;
+    height: 40px;
+}
+
+.compare-inputs input {
+    padding: 10px;
+    width: 350px;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.compare-button {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.compare-button button {
+    background-color: #ffde00;
+    border: none;
+    padding: 0 15px 0 15px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    font-size: 20px;
+    color: black;
+    letter-spacing: 2px;
+    height: 40px;
+}
+         
+.poke-box {
+    display: flex;
+    justify-content: center;
+}
+
+.compare-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: stretch;
+}
+      
+.pokemon-card {
+    background: rgba(0, 0, 0, 0.29);
+    padding: 0 20px 0 20px;
+    border-radius: 12px;
+    width: 600px; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+      
+.pokemon-card img {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+}
+      
+.stat {
+    margin: 5px 0;
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.stat-bar {
+    background: #444;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+    margin-top: 4px;
+}
+
+.stat-bar-fill {
+    height: 100%;
+    color: black;
+    text-align: right;
+    padding-right: 5px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+
+.hp-bar { background: #ff5959; }
+
+.attack-bar { background: #f5ac78; }
+
+.defense-bar { background: #fae078; }
+
+.spatk-bar { background: #9db7f5; }
+
+.spdef-bar { background: #a7db8d; }
+
+.speed-bar { background: #fa92b2; }
+
+.winner-card {
+    border: 2px solid #4c83db;
+    box-shadow: 0 0 15px 3px #4c83db;
+}
+
+.total-stat {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+           
+.card-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0;
+    text-align: left;
+}
+      
+.image-section {
+    flex: 0 0 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+      
+.image-section img {
+    width: 250px;
+    height: 250px;
+}
+      
+.stat-section {
+    flex: 1;
+    width: 250px;
+}
